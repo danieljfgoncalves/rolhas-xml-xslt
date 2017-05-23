@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<o_rolhas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="xml.lprog.isep.pt/rolhas /xsd/rolhas.xsd"
+          xmlns="xml.lprog.isep.pt/rolhas">
+    <wines> <!-- root element -->
+        <wine reference="12781" tasting_note_id="1">
+            <name>Mateus Rosé</name>
+            <price currency="euro">16.64</price>
+            <producer>Sogrape</producer>
+            <origin>
+                <country acronym="PT">Portugal</country>
+                <region>Douro</region>
+            </origin>
+            <technical_sheet>
+                <alchool_content>11.0</alchool_content>
+                <sweetness>
+                    A very sweet wine (<sweetness_content unit="g/L">19</sweetness_content>g/L) described as
+                    <sweetness_descriptor acronym="M" designation="Medium"/>
+                    sweet
+                </sweetness>
+                <varietal>Rosé</varietal>
+                <style>Soft &amp; Off-dry</style>
+            </technical_sheet>
+            <package unit="mL">1500</package>
+            <image full="resources/full_image/mateus_rose_full"
+                   thumb="resources/thumb_image/mateus_rose_thumb"/>
+        </wine>
+        <wine reference="286195">
+            <name>Jp Azeitão Red</name>
+            <origin>
+                <country acronym="PT">Portugal</country>
+                <region>Setubal</region>
+            </origin>
+            <producer>Bacalhoa Vinhos de Portugal, S.A.</producer>
+            <price currency="euro">8.94</price>
+            <technical_sheet>
+                <alchool_content>13.5</alchool_content>
+                <sweetness>
+                    <sweetness_content unit="g/L">4</sweetness_content>
+                    <sweetness_descriptor acronym="XD" designation="Extra Dry"/>
+                </sweetness>
+                <varietal>Red Blend</varietal>
+                <style>Medium-bodied &amp; Fruity</style>
+            </technical_sheet>
+            <package type="bottle" unit="mL">750</package>
+            <image full="resources/full_image/jp_azeitao_red_full"
+                   thumb="resources/thumb_image/jp_azeitao_red_thumb"/>
+        </wine>
+    </wines>
+    <tasting_notes xmlns:tn="xml.lprog.isep.pt/tastingNotes">
+        <tn:tasting_note id="1" lang="EN">
+            Mateus Rosé Original is a rosé with a very appealing and bright hue. On the whole,
+            it is a fresh and seductive wine with fine and intense bouquet and all the joviality
+            of young wines. In the mouth, it is a well balanced and tempting wine, brilliantly
+            complemented by a soft and slightly fizzy finish.
+        </tn:tasting_note>
+    </tasting_notes>
+</o_rolhas>

@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="xml.lprog.isep.pt/complexTypes"
+           elementFormDefault="qualified"
+           xmlns:st="xml.lprog.isep.pt/simpleTypes">
+
+    <xs:import namespace="xml.lprog.isep.pt/simpleTypes" schemaLocation="simpleTypes.xsd"/>
+
+    <!-- DEFINE COMPLEX TYPES -->
+    <xs:complexType name="priceType">
+        <xs:simpleContent>
+            <xs:extension base="st:nonNegativeFloatType">
+                <xs:attribute name="currency" type="st:stringLowercaseType" default="euro"/> <!-- OPTIONAL -->
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="countryType">
+        <xs:simpleContent>
+            <xs:extension base="st:stringWithFirstCapType">
+                <xs:attribute name="acronym" type="st:acronymType" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="sweetnessContentType">
+        <xs:simpleContent>
+            <xs:extension base="xs:unsignedInt">
+                <xs:attribute name="unit" type="xs:string" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="sweetnessDescriptorType">
+        <xs:attribute name="acronym" type="st:acronymType"/> <!-- OPTIONAL -->
+        <xs:attribute name="designation" type="st:stringWithFirstCapType" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="packageType">
+        <xs:simpleContent>
+            <xs:extension base="st:nonNegativeFloatType">
+                <xs:attribute name="type" type="st:stringLowercaseType" default="bottle"/> <!-- OPTIONAL -->
+                <xs:attribute name="unit" type="xs:string" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="imageType">
+        <xs:attribute name="full" type="xs:anyURI" use="required"/>
+        <xs:attribute name="thumb" type="xs:anyURI"/> <!-- OPTIONAL -->
+    </xs:complexType>
+
+</xs:schema>

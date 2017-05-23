@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="xml.lprog.isep.pt/rolhas"
+           elementFormDefault="qualified"
+           xmlns:tn="xml.lprog.isep.pt/tastingNotes"
+           xmlns:ct="xml.lprog.isep.pt/complexTypes"
+           xmlns:st="xml.lprog.isep.pt/simpleTypes">
+
+    <!-- INCLUDES & IMPORTS -->
+    <xs:import namespace="xml.lprog.isep.pt/tastingNotes" schemaLocation="tastingNotes.xsd"/>
+    <xs:import namespace="xml.lprog.isep.pt/complexTypes" schemaLocation="complexTypes.xsd"/>
+    <xs:import namespace="xml.lprog.isep.pt/simpleTypes" schemaLocation="simpleTypes.xsd"/>
+    <!-- MAIN SCHEMA -->
+    <xs:element name="o_rolhas">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- WINES SCHEMA -->
+                <xs:element name="wines">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="wine" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:all>
+                                        <xs:element name="name" type="st:stringWithFirstCapType"/>
+                                        <xs:element name="price" type="ct:priceType"/>
+                                        <xs:element name="producer" type="st:stringWithFirstCapType"/>
+                                        <xs:element name="origin">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="country" type="ct:countryType"/>
+                                                    <xs:element name="region" type="st:stringWithFirstCapType"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="technical_sheet">
+                                            <xs:complexType>
+                                                <xs:all>
+                                                    <xs:element name="alchool_content" type="st:nonNegativeFloatType"/>
+                                                    <xs:element name="sweetness">
+                                                        <xs:complexType mixed="true">
+                                                            <xs:sequence>
+                                                                <xs:element name="sweetness_content"
+                                                                            type="ct:sweetnessContentType"/>
+                                                                <xs:element name="sweetness_descriptor"
+                                                                            type="ct:sweetnessDescriptorType"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="varietal" type="st:stringWithFirstCapType"/>
+                                                    <xs:element name="style" type="st:stringWithFirstCapType"/>
+                                                </xs:all>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="package" type="ct:packageType"/>
+                                        <xs:element name="image" type="ct:imageType"/>
+                                    </xs:all>
+                                    <xs:attribute name="reference" type="xs:positiveInteger" use="required"/>
+                                    <xs:attribute name="tasting_note_id" type="xs:positiveInteger"/> <!-- OPTIONAL -->
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <!-- TASTING NOTES SCHEMA -->
+                <xs:element name="tasting_notes" type="tn:tastingNotesType" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
