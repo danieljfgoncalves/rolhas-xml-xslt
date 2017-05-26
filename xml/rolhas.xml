@@ -46,6 +46,49 @@
             <image full="resources/full_image/jp_azeitao_red_full"
                    thumb="resources/thumb_image/jp_azeitao_red_thumb"/>
         </wine>
+        <wine reference="589069">
+            <name>French Cross Red Bag in Box</name>
+            <origin>
+                <country acronym="CA">Canada</country>
+                <region>Region Not Specified</region>
+            </origin>
+            <producer>Andres Wines Ltd</producer>
+            <price currency="euro">33.95</price>
+            <technical_sheet>
+                <alchool_content>11.5</alchool_content>
+                <sweetness>
+                    <sweetness_content unit="g/L">9</sweetness_content>
+                    <sweetness_descriptor acronym="D" designation="Dry"/>
+                </sweetness>
+                <varietal>Blend</varietal>
+                <style>Medium-bodied &amp; Fruity</style>
+            </technical_sheet>
+            <package type="bagnbox" unit="mL">4000</package>
+            <image full="resources/full_image/french_cross_red_bag_in_box_full"
+                   thumb="resources/thumb_image/french_cross_red_bag_in_box_thumb"/>
+        </wine>
+        <wine reference="229542">
+            <name>Folonari Pinot Grigio</name>
+            <origin>
+                <country acronym="IT">Italy</country>
+                <region>Veneto</region>
+            </origin>
+            <producer>Folonari S.P.A.</producer>
+            <price currency="euro">10.95</price>
+            <technical_sheet>
+                <alchool_content>11.5</alchool_content>
+                <sweetness>
+                    <sweetness_content unit="g/L">6</sweetness_content>
+                    <sweetness_descriptor acronym="XD" designation="Extra Dry"/>
+                </sweetness>
+                <varietal>Pinot Grigio</varietal>
+                <style>Light &amp; Crisp</style>
+            </technical_sheet>
+            <package type="bottle" unit="mL">750</package>
+            <image full="resources/full_image/folonari_pinot_grigio_full"
+                   thumb="resources/thumb_image/folonari_pinot_grigio_thumb"/>
+        </wine>
+
     </wines>
     <tasting_notes xmlns:tn="xml.lprog.isep.pt/tastingNotes">
         <tn:tasting_note id="1" lang="EN">
