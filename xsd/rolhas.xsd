@@ -64,6 +64,7 @@
                 <!-- TASTING NOTES SCHEMA -->
                 <xs:element name="tasting_notes" type="tn:tastingNotesType" minOccurs="0"/>
             </xs:sequence>
+            <xs:attribute name="logo" type="xs:anyURI"/> <!-- OPTIONAL -->
         </xs:complexType>
     </xs:element>
 
