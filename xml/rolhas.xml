@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="xslt/tableWithAllProducts.xsl"?>
 <o_rolhas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="xml.lprog.isep.pt/rolhas /xsd/rolhas.xsd"
-          xmlns="xml.lprog.isep.pt/rolhas">
+          xmlns="xml.lprog.isep.pt/rolhas"
+          logo="resources/logo.jpg">
     <wines> <!-- root element -->
         <wine reference="12781" tasting_note_id="1">
             <name>Mateus Rosé</name>
@@ -43,8 +45,8 @@
                 <style>Medium-bodied &amp; Fruity</style>
             </technical_sheet>
             <package type="bottle" unit="mL">750</package>
-            <image full="resources/full_image/jp_azeitao_red_full"
-                   thumb="resources/thumb_image/jp_azeitao_red_thumb"/>
+            <image full="/resources/full_image/jp_azeitao_red_full"
+                   thumb="/resources/thumb_image/jp_azeitao_red_thumb"/>
         </wine>
         <wine reference="589069">
             <name>French Cross Red Bag in Box</name>
