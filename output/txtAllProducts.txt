@@ -1,0 +1,378 @@
+O'Rolhas Winery
+*----------------*
+
+*---------------------------*
+2017 | LPROG • ISEP • 2DD
+Daniel Gonçalves [ 1151452 ]
+Eric Amaral [ 1141570 ]
+*---------------------------*
+
+WINES
+
++----------------------------------------------------------------------------------------------------------------------+
+
+[reference: 12781] [tasting_note_id: 1] 
+name : Mateus Rosé 
+price : 4.35 [currency: euro] 
+producer : Sogrape 
+country : Portugal [acronym: PT] 
+region : Douro 
+alchool_content : 11.0 
+sweetness_content : 19 [unit: g/L] 
+sweetness_descriptor :  [acronym: M] [designation: Medium] 
+varietal : Rosé 
+style : Soft & Off-dry 
+package : 1500 [unit: mL] 
+image :  [full: resources/full_image/mateus_rose_full.jpg] [thumb: resources/thumb_image/mateus_rose_thumb.png] 
+
++----------------------------------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------------------------------+
+
+[reference: 286195] 
+name : Jp Azeitão Red 
+country : Portugal [acronym: PT] 
+region : Setubal 
+producer : Bacalhoa Vinhos de Portugal, S.A. 
+price : 8.94 [currency: euro] 
+alchool_content : 13.5 
+sweetness_content : 4 [unit: g/L] 
+sweetness_descriptor :  [acronym: XD] [designation: Extra Dry] 
+varietal : Red Blend 
+style : Medium-bodied & Fruity 
+package : 750 [type: bottle] [unit: mL] 
+image :  [full: /resources/full_image/jp_azeitao_red_full.jpg] [thumb: /resources/thumb_image/jp_azeitao_red_thumb.png] 
+
++----------------------------------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------------------------------+
+
+[reference: 589069] 
+name : French Cross Red Bag in Box 
+country : Canada [acronym: CA] 
+producer : Andres Wines Ltd 
+price : 33.95 [currency: dollar] 
+alchool_content : 11.5 
+sweetness_content : 9 [unit: g/L] 
+sweetness_descriptor :  [acronym: D] [designation: Dry] 
+varietal : Blend 
+style : Medium-bodied & Fruity 
+package : 4000 [type: bagnbox] [unit: mL] 
+image :  [full: resources/full_image/french_cross_red_bag_in_box_full.jpeg] [thumb: resources/thumb_image/french_cross_red_bag_in_box_thumb.png] 
+
++----------------------------------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------------------------------+
+
+[reference: 229542] 
+name : Folonari Pinot Grigio 
+country : Italy [acronym: IT] 
+region : Veneto 
+producer : Folonari S.P.A. 
+price : 10.95 [currency: dollar] 
+alchool_content : 11.5 
+sweetness_content : 6 [unit: g/L] 
+sweetness_descriptor :  [acronym: XD] [designation: Extra Dry] 
+varietal : Pinot Grigio 
+style : Light & Crisp 
+package : 750 [type: bottle] [unit: mL] 
+image :  [full: resources/full_image/folonari_pinot_grigio_full.jpeg] [thumb: resources/thumb_image/folonari_pinot_grigio_thumb.png] 
+
++----------------------------------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------------------------------+
+
+[reference: 270892] 
+name : Jackson-Triggs Merlot Bag in Box 
+country : Canada [acronym: CA] 
+producer : Jackson-Triggs Winery 
+price : 39.95 [currency: euro] 
+alchool_content : 12.5 
+sweetness_content : 15 [unit: g/L] 
+sweetness_descriptor :  [acronym: D] [designation: Dry] 
+varietal : Merlot 
+style : Full-bodied & Smooth 
+package : 4000 [type: bagnbox] [unit: mL] 
+image :  [full: resources/full_image/jackson_triggs_ merlot_bag_in_box_full.jpeg] [thumb: resources/thumb_image/jackson_triggs_ merlot_bag_in_box_thumb.png] 
+
++----------------------------------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------------------------------+
+
+[reference: 322727] 
+name : Santa Carolina Chardonnay 
+country : Chile [acronym: CL] 
+producer : Vina Santa Carolina 
+price : 14.95 [currency: pound] 
+alchool_content : 13.0 
+sweetness_content : 3 [unit: g/L] 
+sweetness_descriptor :  [acronym: XD] [designation: Extra Dry] 
+varietal : Chardonnay 
+style : Light & Crisp 
+package : 1500 [type: bottle] [unit: mL] 
+image :  [full: resources/full_image/santa_carolina_chardonnay_full.jpeg] [thumb: resources/thumb_image/santa_carolina_chardonnay_thumb.png] 
+
++----------------------------------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------------------------------+
+
+[reference: 280644] 
+name : Carlo Rossi California Red 
+country : United States of America [acronym: USA] 
+producer : E. & J. Gallo Winery 
+price : 26.95 [currency: euro] 
+alchool_content : 11.5 
+sweetness_content : 13 [unit: g/L] 
+sweetness_descriptor :  [acronym: D] [designation: Dry] 
+varietal : Blend 
+style : Light-bodied & Fruity 
+package : 1500 [type: bottle] [unit: mL] 
+image :  [full: resources/full_image/carlo_rossi_california_red_full.jpeg] [thumb: resources/thumb_image/carlo_rossi_california_red_thumb.png] 
+
++----------------------------------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------------------------------+
+
+[reference: 465146] 
+name : Les Jamelles Sauvignon Blanc Pays D'Oc 
+country : France [acronym: FR] 
+producer : Badet, Clement & Cie 
+price : 18.95 [currency: euro] 
+alchool_content : 12.5 
+sweetness_content : 2 [unit: g/L] 
+sweetness_descriptor :  [acronym: XD] [designation: Extra Dry] 
+varietal : Sauvignon Blanc 
+style : Light & Crisp 
+package : 750 [type: bottle] [unit: mL] 
+image :  [full: resources/full_image/les_jamelles_sauvignon_blanc_pays_d'oc_full.jpeg] [thumb: resources/thumb_image/les_jamelles_sauvignon_blanc_pays_d'oc_thumb.png] 
+
++----------------------------------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------------------------------+
+
+[reference: 79046] 
+name : Citra Trebbiano D'Abruzzo 
+country : Italy [acronym: IT] 
+region : Abruzzo 
+producer : Consorzio Cooperative Riunite 
+price : 9.95 [currency: euro] 
+alchool_content : 12.00 
+sweetness_content : 4 [unit: g/L] 
+sweetness_descriptor :  [acronym: XD] [designation: Extra Dry] 
+varietal : Trebbiano 
+style : Light & Crisp 
+package : 1500 [type: bottle] [unit: mL] 
+image :  [full: resources/full_image/citra_trebbiano_d'abruzzo_full.jpeg] [thumb: resources/thumb_image/citra_trebbiano_d'abruzzo_thumb.png] 
+
++----------------------------------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------------------------------+
+
+[reference: 413070] 
+name : Two Oceans Sauvignon Blanc 
+country : South Africa [acronym: ZA] 
+producer : Distillers Corporation Limited 
+price : 11.95 [currency: euro] 
+alchool_content : 12.50 
+sweetness_content : 7 [unit: g/L] 
+sweetness_descriptor :  [acronym: XD] [designation: Extra Dry] 
+varietal : Sauvignon Blanc 
+style : Light & Crisp 
+package : 1500 [type: bottle] [unit: mL] 
+image :  [full: resources/full_image/two_oceans_sauvignon_blanc_full.jpeg] [thumb: resources/thumb_image/two_oceans_sauvignon_blanc_thumb.png] 
+
++----------------------------------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------------------------------+
+
+[reference: 624544] [tasting_note_id: 2] 
+name : Yellow Tail Shiraz 
+country : Australia [acronym: AU] 
+producer : Casella Wines 
+price : 11.95 [currency: euro] 
+alchool_content : 13.50 
+sweetness_content : 9 [unit: g/L] 
+sweetness_descriptor :  [acronym: D] [designation: Dry] 
+varietal : Shiraz/Syrah 
+style : Full-bodied & Smooth 
+package : 750 [type: bottle] [unit: mL] 
+image :  [full: resources/full_image/yellow_tail_shiraz_full.jpeg] [thumb: resources/thumb_image/yellow_tail_shiraz_thumb.png] 
+
++----------------------------------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------------------------------+
+
+[reference: 426601] 
+name : Villa Maria Private Bin Sauvignon Blanc Marlborough 
+country : New Zealand [acronym: NZ] 
+producer : Villa Maria Estates Ltd. 
+price : 15.95 [currency: euro] 
+alchool_content : 13.00 
+sweetness_content : 8 [unit: g/L] 
+sweetness_descriptor :  [acronym: XD] [designation: Extra Dry] 
+varietal : Sauvignon Blanc 
+style : Light & Crisp 
+package : 750 [type: bottle] [unit: mL] 
+image :  [full: resources/full_image/villa_maria_private_bin_sauvignon_blanc_marlborough_full.jpeg] [thumb: resources/thumb_image/villa_maria_private_bin_sauvignon_blanc_marlborough_thumb.png] 
+
++----------------------------------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------------------------------+
+
+[reference: 48140] [tasting_note_id: 3] 
+name : Fontana Di Papa Colli Albani 
+country : Italy [acronym: IT] 
+region : Lazio 
+producer : Fontana Di Papa S.R.L. 
+price : 16.80 [currency: euro] 
+alchool_content : 11.00 
+sweetness_content : 11 [unit: g/L] 
+sweetness_descriptor :  [acronym: D] [designation: Dry] 
+varietal : Blend 
+style : Light & Crisp 
+package : 2000 [type: bottle] [unit: mL] 
+image :  [full: resources/full_image/fontana_di_papa_colli_albani_full.jpeg] [thumb: resources/thumb_image/fontana_di_papa_colli_albani_thumb.png] 
+
++----------------------------------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------------------------------+
+
+[reference: 4762] 
+name : Spumante Bambino 
+country : Canada [acronym: CA] 
+region : Lazio 
+producer : Constellation Brands Inc. 
+price : 4.85 [currency: euro] 
+alchool_content : 7.00 
+sweetness_content : 74 [unit: g/L] 
+sweetness_descriptor :  [acronym: S] [designation: Sweet] 
+varietal : Sparkling 
+style : Light & Fruity 
+package : 1500 [type: bottle] [unit: mL] 
+image :  [full: resources/full_image/spumante_bambino_full.jpeg] [thumb: resources/thumb_image/spumante_bambino_thumb.png] 
+
++----------------------------------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------------------------------+
+
+[reference: 251876] 
+name : Wolf Blass Yellow Label Cabernet Sauvignon 
+country : Australia [acronym: AU] 
+producer : Mildara Blass Limited 
+price : 17.14 [currency: euro] 
+alchool_content : 13.50 
+sweetness_content : 7 [unit: g/L] 
+sweetness_descriptor :  [acronym: D] [designation: Dry] 
+varietal : Cabernet Sauvignon 
+style : Full-bodied & Smooth 
+package : 750 [type: bottle] [unit: mL] 
+image :  [full: resources/full_image/wolf_blass_yellow_label_cabernet_sauvignon_full.jpeg] [thumb: resources/thumb_image/wolf_blass_yellow_label_cabernet_sauvignon_thumb.png] 
+
++----------------------------------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------------------------------+
+
+[reference: 251876] 
+name : Naked Grape Pinot Grigio 
+country : Canada [acronym: CA] 
+producer : Constellation Brands Inc. 
+price : 10.25 [currency: euro] 
+alchool_content : 12.00 
+sweetness_content : 7 [unit: g/L] 
+sweetness_descriptor :  [acronym: D] [designation: Dry] 
+varietal : Pinot Grigio 
+style : Light & Crisp 
+package : 750 [type: bottle] [unit: mL] 
+image :  [full: resources/full_image/naked_grape_pinot_grigio_full.jpeg] [thumb: resources/thumb_image/naked_grape_pinot_grigio_thumb.png] 
+
++----------------------------------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------------------------------+
+
+[reference: 452672] [tasting_note_id: 4] 
+name : Luigi Bosca Malbec 
+country : Argentina [acronym: AR] 
+region : Mendoza 
+producer : Familia Arizu 
+price : 16.95 [currency: euro] 
+alchool_content : 14.00 
+sweetness_content : 2 [unit: g/L] 
+sweetness_descriptor :  [acronym: XD] [designation: Extra Dry] 
+varietal : Malbec 
+style : Full-bodied & Smooth 
+package : 750 [type: bottle] [unit: mL] 
+image :  [full: resources/full_image/luigi_bosca_malbec_full.jpeg] [thumb: resources/thumb_image/luigi_bosca_malbec_thumb.png] 
+
++----------------------------------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------------------------------+
+
+[reference: 145417] 
+name : Pelee Island Lighthouse Riesling VQA 
+country : Canada [acronym: AR] 
+region : Ontario 
+producer : Pelee Island Vineyard Inc. 
+price : 12.45 [currency: euro] 
+alchool_content : 12.50 
+sweetness_content : 7 [unit: g/L] 
+sweetness_descriptor :  [acronym: XD] [designation: Extra Dry] 
+varietal : Riesling 
+style : Light & Crisp 
+package : 750 [type: bottle] [unit: mL] 
+image :  [full: resources/full_image/pelee_island_lighthouse_riesling_vqa_full.jpeg] [thumb: resources/thumb_image/pelee_island_lighthouse_riesling_vqa_thumb.png] 
+
++----------------------------------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------------------------------+
+
+[reference: 238048] 
+name : Liebfraumilch Drathen Qualitatswein 
+country : Germany [acronym: DE] 
+region : Rheinhessen 
+producer : Ewald Theod. Drathen Kg 
+price : 14.95 [currency: euro] 
+alchool_content : 8.50 
+sweetness_content : 41 [unit: g/L] 
+sweetness_descriptor :  [acronym: MS] [designation: Medium Sweet] 
+varietal : Blend 
+style : Off-dry & Fruity 
+package : 1500 [type: bottle] [unit: mL] 
+image :  [full: resources/full_image/liebfraumilch_drathen_qualitatswein_full.jpeg] [thumb: resources/thumb_image/liebfraumilch_drathen_qualitatswein_thumb.png] 
+
++----------------------------------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------------------------------+
+
+[reference: 394759] 
+name : Kung Fu Girl Riesling 
+country : United States of America [acronym: USA] 
+region : Washington 
+producer : Constellation Brands Inc." 
+price : 18.95 [currency: euro] 
+alchool_content : 12.00 
+sweetness_content : 11 [unit: g/L] 
+sweetness_descriptor :  [acronym: D] [designation: Dry] 
+varietal : Riesling 
+style : Aromatic & Flavourful 
+package : 750 [type: bottle] [unit: mL] 
+image :  [full: resources/full_image/kung_fu_girl_riesling_full.jpeg] [thumb: resources/thumb_image/kung_fu_girl_riesling_thumb.png] 
+
++----------------------------------------------------------------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------------------------------+
+
+[reference: 461533] [tasting_note_id: 5] 
+name : Gentleman's Collection Cabernet Sauvignon 
+country : Australia [acronym: AU] 
+region : South Australia 
+producer : Southcorp Wines 
+price : 18.20 [currency: euro] 
+alchool_content : 14.00 
+sweetness_content : 14 [unit: g/L] 
+sweetness_descriptor :  [acronym: D] [designation: Dry] 
+varietal : Cabernet 
+style : Full-bodied & Smooth 
+package : 750 [type: bottle] [unit: mL] 
+image :  [full: resources/full_image/gentleman's_collection_cabernet_sauvignon_full.jpeg] [thumb: resources/thumb_image/gentleman's_collection_cabernet_sauvignon_thumb.png] 
+
++----------------------------------------------------------------------------------------------------------------------+
