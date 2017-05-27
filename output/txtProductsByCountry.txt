@@ -1,0 +1,29 @@
+O'Rolhas Winery
+*----------------*
+
+*---------------------------*
+2017 | LPROG • ISEP • 2DD
+Daniel Gonçalves [ 1151452 ]
+Eric Amaral [ 1141570 ]
+*---------------------------*
+
+WINES
+
+COUNTRY: Argentina
+
++----------------------------------------------------------------------------------------------------------------------+
+
+[reference: 452672] [tasting_note_id: 4] 
+name : Luigi Bosca Malbec 
+region : Mendoza 
+producer : Familia Arizu 
+price : 16.95 [currency: euro] 
+alchool_content : 14.00 
+sweetness_content : 2 [unit: g/L] 
+sweetness_descriptor :  [acronym: XD] [designation: Extra Dry] 
+varietal : Malbec 
+style : Full-bodied & Smooth 
+package : 750 [type: bottle] [unit: mL] 
+image :  [full: resources/full_image/luigi_bosca_malbec_full.jpeg] [thumb: resources/thumb_image/luigi_bosca_malbec_thumb.png] 
+
++----------------------------------------------------------------------------------------------------------------------+
