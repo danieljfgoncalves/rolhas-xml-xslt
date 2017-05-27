@@ -28,7 +28,8 @@
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="country" type="ct:countryType"/>
-                                                    <xs:element name="region" type="st:stringWithFirstCapType"/>
+                                                    <xs:element name="region" type="st:stringWithFirstCapType"
+                                                                minOccurs="0"/>
                                                 </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>

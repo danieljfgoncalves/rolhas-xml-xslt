@@ -4,19 +4,18 @@
            elementFormDefault="qualified">
 
     <!-- TASTING NOTES COMPLEX TYPE -->
-        <xs:complexType name="tastingNotesType">
-            <xs:sequence>
-                <xs:element name="tasting_note" maxOccurs="unbounded">
-                    <xs:complexType>
-                        <xs:simpleContent>
-                            <xs:extension base="xs:string">
-                                <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
-                                <xs:attribute name="lang" type="xs:string" fixed="EN"/> <!-- FIXED -->
-                            </xs:extension>
-                        </xs:simpleContent>
-                    </xs:complexType>
-                </xs:element>
-            </xs:sequence>
-        </xs:complexType>
-    
+    <xs:complexType name="tastingNotesType">
+        <xs:sequence>
+            <xs:element name="tasting_note" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
+                            <xs:attribute name="lang" type="xs:string" fixed="EN"/> <!-- FIXED -->
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
 </xs:schema>
