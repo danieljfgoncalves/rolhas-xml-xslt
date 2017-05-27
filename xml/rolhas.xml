@@ -90,6 +90,217 @@
             <image full="resources/full_image/folonari_pinot_grigio_full"
                    thumb="resources/thumb_image/folonari_pinot_grigio_thumb"/>
         </wine>
+        <wine reference="270892">
+            <name>Jackson-Triggs Merlot Bag in Box</name>
+            <origin>
+                <country acronym="CA">Canada</country>
+                <region>Region Not Specified</region>
+            </origin>
+            <producer>Jackson-Triggs Winery</producer>
+            <price currency="euro">39.95</price>
+            <technical_sheet>
+                <alchool_content>12.5</alchool_content>
+                <sweetness>
+                    <sweetness_content unit="g/L">15</sweetness_content>
+                    <sweetness_descriptor acronym="D" designation="Dry"/>
+                </sweetness>
+                <varietal>Merlot</varietal>
+                <style>Full-bodied &amp; Smooth</style>
+            </technical_sheet>
+            <package type="bagnbox" unit="mL">4000</package>
+            <image full="resources/full_image/jackson_triggs_ merlot_bag_in_box_full"
+                   thumb="resources/thumb_image/jackson_triggs_ merlot_bag_in_box_thumb"/>
+        </wine>
+        <wine reference="322727">
+            <name>Santa Carolina Chardonnay</name>
+            <origin>
+                <country acronym="CL">Chile</country>
+                <region>Region Not Specified</region>
+            </origin>
+            <producer>Vina Santa Carolina</producer>
+            <price currency="euro">14.95</price>
+            <technical_sheet>
+                <alchool_content>13.0</alchool_content>
+                <sweetness>
+                    <sweetness_content unit="g/L">3</sweetness_content>
+                    <sweetness_descriptor acronym="XD" designation="Extra Dry"/>
+                </sweetness>
+                <varietal>Chardonnay</varietal>
+                <style>Light &amp; Crisp</style>
+            </technical_sheet>
+            <package type="bottle" unit="mL">1500</package>
+            <image full="resources/full_image/santa_carolina_chardonnay_full"
+                   thumb="resources/thumb_image/santa_carolina_chardonnay_thumb"/>
+        </wine>
+        <wine reference="280644">
+            <name>Carlo Rossi California Red</name>
+            <origin>
+                <country acronym="USA">United States of America</country>
+                <region>Region Not Specified</region>
+            </origin>
+            <producer>E. &amp; J. Gallo Winery</producer>
+            <price currency="euro">26.95</price>
+            <technical_sheet>
+                <alchool_content>11.5</alchool_content>
+                <sweetness>
+                    <sweetness_content unit="g/L">13</sweetness_content>
+                    <sweetness_descriptor acronym="D" designation="Dry"/>
+                </sweetness>
+                <varietal>Blend</varietal>
+                <style>Light-bodied &amp; Fruity</style>
+            </technical_sheet>
+            <package type="bottle" unit="mL">1500</package>
+            <image full="resources/full_image/carlo_rossi_california_red_full"
+                   thumb="resources/thumb_image/carlo_rossi_california_red_thumb"/>
+        </wine>
+        <wine reference="465146">
+            <name>Les Jamelles Sauvignon Blanc Pays D'Oc</name>
+            <origin>
+                <country acronym="FR">France</country>
+                <region>Region Not Specified</region>
+            </origin>
+            <producer>Badet, Clement &amp; Cie</producer>
+            <price currency="euro">18.95</price>
+            <technical_sheet>
+                <alchool_content>12.5</alchool_content>
+                <sweetness>
+                    <sweetness_content unit="g/L">2</sweetness_content>
+                    <sweetness_descriptor acronym="XD" designation="Extra Dry"/>
+                </sweetness>
+                <varietal>Sauvignon Blanc</varietal>
+                <style>Light &amp; Crisp</style>
+            </technical_sheet>
+            <package type="bottle" unit="mL">750</package>
+            <image full="resources/full_image/les_jamelles_sauvignon_blanc_pays_d'oc_full"
+                   thumb="resources/thumb_image/les_jamelles_sauvignon_blanc_pays_d'oc_thumb"/>
+        </wine>
+        <wine reference="79046">
+            <name>Citra Trebbiano D'Abruzzo</name>
+            <origin>
+                <country acronym="IT">Italy</country>
+                <region>Abruzzo</region>
+            </origin>
+            <producer>Consorzio Cooperative Riunite</producer>
+            <price currency="euro">9.95</price>
+            <technical_sheet>
+                <alchool_content>12.00</alchool_content>
+                <sweetness>
+                    <sweetness_content unit="g/L">4</sweetness_content>
+                    <sweetness_descriptor acronym="XD" designation="Extra Dry"/>
+                </sweetness>
+                <varietal>Trebbiano</varietal>
+                <style>Light &amp; Crisp</style>
+            </technical_sheet>
+            <package type="bottle" unit="mL">1500</package>
+            <image full="resources/full_image/citra_trebbiano_d'abruzzo_full"
+                   thumb="resources/thumb_image/citra_trebbiano_d'abruzzo_thumb"/>
+        </wine>
+        <wine reference="413070">
+            <name>Two Oceans Sauvignon Blanc</name>
+            <origin>
+                <country acronym="ZA">South Africa</country>
+                <region>Region not specified</region>
+            </origin>
+            <producer>Distillers Corporation Limited</producer>
+            <price currency="euro">11.95</price>
+            <technical_sheet>
+                <alchool_content>12.50</alchool_content>
+                <sweetness>
+                    <sweetness_content unit="g/L">7</sweetness_content>
+                    <sweetness_descriptor acronym="XD" designation="Extra Dry"/>
+                </sweetness>
+                <varietal>Sauvignon Blanc</varietal>
+                <style>Light &amp; Crisp</style>
+            </technical_sheet>
+            <package type="bottle" unit="mL">1500</package>
+            <image full="resources/full_image/two_oceans_sauvignon_blanc_full"
+                   thumb="resources/thumb_image/two_oceans_sauvignon_blanc_thumb"/>
+        </wine>
+        <wine reference="624544">
+            <name>Yellow Tail Shiraz</name>
+            <origin>
+                <country acronym="AU">Australia</country>
+                <region>Region not specified</region>
+            </origin>
+            <producer>Casella Wines</producer>
+            <price currency="euro">11.95</price>
+            <technical_sheet>
+                <alchool_content>13.50</alchool_content>
+                <sweetness>
+                    <sweetness_content unit="g/L">9</sweetness_content>
+                    <sweetness_descriptor acronym="D" designation="Dry"/>
+                </sweetness>
+                <varietal>Shiraz/Syrah</varietal>
+                <style>Full-bodied &amp; Smooth</style>
+            </technical_sheet>
+            <package type="bottle" unit="mL">750</package>
+            <image full="resources/full_image/yellow_tail_shiraz_full"
+                   thumb="resources/thumb_image/yellow_tail_shiraz_thumb"/>
+        </wine>
+        <wine reference="426601">
+            <name>Villa Maria Private Bin Sauvignon Blanc Marlborough</name>
+            <origin>
+                <country acronym="NZ">New Zealand</country>
+                <region>Region not specified</region>
+            </origin>
+            <producer>Villa Maria Estates Ltd.</producer>
+            <price currency="euro">15.95</price>
+            <technical_sheet>
+                <alchool_content>13.00</alchool_content>
+                <sweetness>
+                    <sweetness_content unit="g/L">8</sweetness_content>
+                    <sweetness_descriptor acronym="XD" designation="Extra Dry"/>
+                </sweetness>
+                <varietal>Sauvignon Blanc</varietal>
+                <style>Light &amp; Crisp</style>
+            </technical_sheet>
+            <package type="bottle" unit="mL">750</package>
+            <image full="resources/full_image/villa_maria_private_bin_sauvignon_blanc_marlborough_full"
+                   thumb="resources/thumb_image/villa_maria_private_bin_sauvignon_blanc_marlborough_thumb"/>
+        </wine>
+        <wine reference="48140">
+            <name>Fontana Di Papa Colli Albani</name>
+            <origin>
+                <country acronym="IT">Italy</country>
+                <region>Lazio</region>
+            </origin>
+            <producer>Fontana Di Papa S.R.L.</producer>
+            <price currency="euro">16.80</price>
+            <technical_sheet>
+                <alchool_content>11.00</alchool_content>
+                <sweetness>
+                    <sweetness_content unit="g/L">11</sweetness_content>
+                    <sweetness_descriptor acronym="D" designation="Dry"/>
+                </sweetness>
+                <varietal>Blend</varietal>
+                <style>Light &amp; Crisp</style>
+            </technical_sheet>
+            <package type="bottle" unit="mL">2000</package>
+            <image full="resources/full_image/fontana_di_papa_colli_albani_full"
+                   thumb="resources/thumb_image/fontana_di_papa_colli_albani_thumb"/>
+        </wine>
+        <wine reference="4762">
+            <name>Spumante Bambino</name>
+            <origin>
+                <country acronym="CA">Canada</country>
+                <region>Lazio</region>
+            </origin>
+            <producer>Constellation Brands Inc.</producer>
+            <price currency="euro">15.25</price>
+            <technical_sheet>
+                <alchool_content>7.00</alchool_content>
+                <sweetness>
+                    <sweetness_content unit="g/L">74</sweetness_content>
+                    <sweetness_descriptor acronym="S" designation="Sweet"/>
+                </sweetness>
+                <varietal>Sparkling</varietal>
+                <style>Light &amp; Fruity</style>
+            </technical_sheet>
+            <package type="bottle" unit="mL">1500</package>
+            <image full="resources/full_image/spumante_bambino_full"
+                   thumb="resources/thumb_image/spumante_bambino_thumb"/>
+        </wine>
+
 
     </wines>
     <tasting_notes xmlns:tn="xml.lprog.isep.pt/tastingNotes">
