@@ -35,7 +35,9 @@
             <xsl:with-param name="startEndSymbol" select="'*'"/>
         </xsl:call-template>
         <xsl:text>&#xD;&#xA;</xsl:text> <!-- LINE FEED -->
-        <xsl:text>WINES</xsl:text>
+        <xsl:text>WINES [ Available: </xsl:text>
+        <xsl:value-of select="count(r:wines/r:wine[r:origin/r:country=$countryVar])"/>
+        <xsl:text> ]</xsl:text>
         <xsl:text>&#xD;&#xA;</xsl:text> <!-- LINE FEED -->
         <xsl:text>&#xD;&#xA;</xsl:text> <!-- LINE FEED -->
         <xsl:text>COUNTRY: </xsl:text>

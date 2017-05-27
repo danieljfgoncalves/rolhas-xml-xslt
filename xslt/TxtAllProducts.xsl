@@ -19,7 +19,9 @@
             <xsl:with-param name="startEndSymbol" select="'*'"/>
         </xsl:call-template>
         <xsl:text>&#xD;&#xA;</xsl:text> <!-- LINE FEED -->
-        <xsl:text>WINES</xsl:text>
+        <xsl:text>WINES [ Available: </xsl:text>
+        <xsl:value-of select="count(r:wines/r:wine)"/>
+        <xsl:text> ]</xsl:text>
         <xsl:text>&#xD;&#xA;</xsl:text> <!-- LINE FEED -->
         <xsl:apply-templates select="r:wines/r:wine"/>
     </xsl:template>
