@@ -135,7 +135,7 @@
                             <xsl:apply-templates select="r:price/@currency"/>
                         </samp>
                     </xsl:when>
-                    <xsl:when test="r:price&lt;'4'">
+                    <xsl:when test="r:price&lt;'5'">
                         <samp style="background:#82BFA0">
                             <xsl:value-of select="r:price"/>
                             <xsl:apply-templates select="r:price/@currency"/>
@@ -182,6 +182,11 @@
                             select="concat(' ',r:technical_sheet/r:sweetness/r:sweetness_content/@unit, ' &#x2022; ')"/>
                     <xsl:value-of select="r:technical_sheet/r:sweetness/r:sweetness_descriptor/@designation"/>
                 </samp>
+                <kbd style="vertical-align: middle;">
+                    <b>package:</b>
+                    <xsl:value-of select="concat(r:package, ' ', r:package/@unit, ' ')"/>
+                    <xsl:value-of select="r:package/@type"/>
+                </kbd>
             </td>
         </tr>
     </xsl:template>

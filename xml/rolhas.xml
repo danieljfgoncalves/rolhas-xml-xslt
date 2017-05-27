@@ -7,7 +7,7 @@
     <wines> <!-- root element -->
         <wine reference="12781" tasting_note_id="1">
             <name>Mateus Rosé</name>
-            <price currency="euro">16.64</price>
+            <price currency="euro">4.35</price>
             <producer>Sogrape</producer>
             <origin>
                 <country acronym="PT">Portugal</country>
@@ -52,10 +52,9 @@
             <name>French Cross Red Bag in Box</name>
             <origin>
                 <country acronym="CA">Canada</country>
-                <region>Region Not Specified</region>
             </origin>
             <producer>Andres Wines Ltd</producer>
-            <price currency="euro">33.95</price>
+            <price currency="dollar">33.95</price>
             <technical_sheet>
                 <alchool_content>11.5</alchool_content>
                 <sweetness>
@@ -66,8 +65,8 @@
                 <style>Medium-bodied &amp; Fruity</style>
             </technical_sheet>
             <package type="bagnbox" unit="mL">4000</package>
-            <image full="resources/full_image/french_cross_red_bag_in_box_full"
-                   thumb="resources/thumb_image/french_cross_red_bag_in_box_thumb"/>
+            <image full="resources/full_image/french_cross_red_bag_in_box_full.jpeg"
+                   thumb="resources/thumb_image/french_cross_red_bag_in_box_thumb.png"/>
         </wine>
         <wine reference="229542">
             <name>Folonari Pinot Grigio</name>
@@ -76,7 +75,7 @@
                 <region>Veneto</region>
             </origin>
             <producer>Folonari S.P.A.</producer>
-            <price currency="euro">10.95</price>
+            <price currency="dollar">10.95</price>
             <technical_sheet>
                 <alchool_content>11.5</alchool_content>
                 <sweetness>
@@ -87,14 +86,13 @@
                 <style>Light &amp; Crisp</style>
             </technical_sheet>
             <package type="bottle" unit="mL">750</package>
-            <image full="resources/full_image/folonari_pinot_grigio_full"
-                   thumb="resources/thumb_image/folonari_pinot_grigio_thumb"/>
+            <image full="resources/full_image/folonari_pinot_grigio_full.jpeg"
+                   thumb="resources/thumb_image/folonari_pinot_grigio_thumb.png"/>
         </wine>
         <wine reference="270892">
             <name>Jackson-Triggs Merlot Bag in Box</name>
             <origin>
                 <country acronym="CA">Canada</country>
-                <region>Region Not Specified</region>
             </origin>
             <producer>Jackson-Triggs Winery</producer>
             <price currency="euro">39.95</price>
@@ -108,17 +106,16 @@
                 <style>Full-bodied &amp; Smooth</style>
             </technical_sheet>
             <package type="bagnbox" unit="mL">4000</package>
-            <image full="resources/full_image/jackson_triggs_ merlot_bag_in_box_full"
-                   thumb="resources/thumb_image/jackson_triggs_ merlot_bag_in_box_thumb"/>
+            <image full="resources/full_image/jackson_triggs_ merlot_bag_in_box_full.jpeg"
+                   thumb="resources/thumb_image/jackson_triggs_ merlot_bag_in_box_thumb.png"/>
         </wine>
         <wine reference="322727">
             <name>Santa Carolina Chardonnay</name>
             <origin>
                 <country acronym="CL">Chile</country>
-                <region>Region Not Specified</region>
             </origin>
             <producer>Vina Santa Carolina</producer>
-            <price currency="euro">14.95</price>
+            <price currency="pound">14.95</price>
             <technical_sheet>
                 <alchool_content>13.0</alchool_content>
                 <sweetness>
@@ -129,14 +126,13 @@
                 <style>Light &amp; Crisp</style>
             </technical_sheet>
             <package type="bottle" unit="mL">1500</package>
-            <image full="resources/full_image/santa_carolina_chardonnay_full"
-                   thumb="resources/thumb_image/santa_carolina_chardonnay_thumb"/>
+            <image full="resources/full_image/santa_carolina_chardonnay_full.jpeg"
+                   thumb="resources/thumb_image/santa_carolina_chardonnay_thumb.png"/>
         </wine>
         <wine reference="280644">
             <name>Carlo Rossi California Red</name>
             <origin>
                 <country acronym="USA">United States of America</country>
-                <region>Region Not Specified</region>
             </origin>
             <producer>E. &amp; J. Gallo Winery</producer>
             <price currency="euro">26.95</price>
@@ -150,14 +146,13 @@
                 <style>Light-bodied &amp; Fruity</style>
             </technical_sheet>
             <package type="bottle" unit="mL">1500</package>
-            <image full="resources/full_image/carlo_rossi_california_red_full"
-                   thumb="resources/thumb_image/carlo_rossi_california_red_thumb"/>
+            <image full="resources/full_image/carlo_rossi_california_red_full.jpeg"
+                   thumb="resources/thumb_image/carlo_rossi_california_red_thumb.png"/>
         </wine>
         <wine reference="465146">
             <name>Les Jamelles Sauvignon Blanc Pays D'Oc</name>
             <origin>
                 <country acronym="FR">France</country>
-                <region>Region Not Specified</region>
             </origin>
             <producer>Badet, Clement &amp; Cie</producer>
             <price currency="euro">18.95</price>
@@ -171,8 +166,8 @@
                 <style>Light &amp; Crisp</style>
             </technical_sheet>
             <package type="bottle" unit="mL">750</package>
-            <image full="resources/full_image/les_jamelles_sauvignon_blanc_pays_d'oc_full"
-                   thumb="resources/thumb_image/les_jamelles_sauvignon_blanc_pays_d'oc_thumb"/>
+            <image full="resources/full_image/les_jamelles_sauvignon_blanc_pays_d'oc_full.jpeg"
+                   thumb="resources/thumb_image/les_jamelles_sauvignon_blanc_pays_d'oc_thumb.png"/>
         </wine>
         <wine reference="79046">
             <name>Citra Trebbiano D'Abruzzo</name>
@@ -192,14 +187,13 @@
                 <style>Light &amp; Crisp</style>
             </technical_sheet>
             <package type="bottle" unit="mL">1500</package>
-            <image full="resources/full_image/citra_trebbiano_d'abruzzo_full"
-                   thumb="resources/thumb_image/citra_trebbiano_d'abruzzo_thumb"/>
+            <image full="resources/full_image/citra_trebbiano_d'abruzzo_full.jpeg"
+                   thumb="resources/thumb_image/citra_trebbiano_d'abruzzo_thumb.png"/>
         </wine>
         <wine reference="413070">
             <name>Two Oceans Sauvignon Blanc</name>
             <origin>
                 <country acronym="ZA">South Africa</country>
-                <region>Region not specified</region>
             </origin>
             <producer>Distillers Corporation Limited</producer>
             <price currency="euro">11.95</price>
@@ -213,14 +207,13 @@
                 <style>Light &amp; Crisp</style>
             </technical_sheet>
             <package type="bottle" unit="mL">1500</package>
-            <image full="resources/full_image/two_oceans_sauvignon_blanc_full"
-                   thumb="resources/thumb_image/two_oceans_sauvignon_blanc_thumb"/>
+            <image full="resources/full_image/two_oceans_sauvignon_blanc_full.jpeg"
+                   thumb="resources/thumb_image/two_oceans_sauvignon_blanc_thumb.png"/>
         </wine>
-        <wine reference="624544">
+        <wine reference="624544" tasting_note_id="2">
             <name>Yellow Tail Shiraz</name>
             <origin>
                 <country acronym="AU">Australia</country>
-                <region>Region not specified</region>
             </origin>
             <producer>Casella Wines</producer>
             <price currency="euro">11.95</price>
@@ -234,14 +227,13 @@
                 <style>Full-bodied &amp; Smooth</style>
             </technical_sheet>
             <package type="bottle" unit="mL">750</package>
-            <image full="resources/full_image/yellow_tail_shiraz_full"
-                   thumb="resources/thumb_image/yellow_tail_shiraz_thumb"/>
+            <image full="resources/full_image/yellow_tail_shiraz_full.jpeg"
+                   thumb="resources/thumb_image/yellow_tail_shiraz_thumb.png"/>
         </wine>
         <wine reference="426601">
             <name>Villa Maria Private Bin Sauvignon Blanc Marlborough</name>
             <origin>
                 <country acronym="NZ">New Zealand</country>
-                <region>Region not specified</region>
             </origin>
             <producer>Villa Maria Estates Ltd.</producer>
             <price currency="euro">15.95</price>
@@ -255,10 +247,10 @@
                 <style>Light &amp; Crisp</style>
             </technical_sheet>
             <package type="bottle" unit="mL">750</package>
-            <image full="resources/full_image/villa_maria_private_bin_sauvignon_blanc_marlborough_full"
-                   thumb="resources/thumb_image/villa_maria_private_bin_sauvignon_blanc_marlborough_thumb"/>
+            <image full="resources/full_image/villa_maria_private_bin_sauvignon_blanc_marlborough_full.jpeg"
+                   thumb="resources/thumb_image/villa_maria_private_bin_sauvignon_blanc_marlborough_thumb.png"/>
         </wine>
-        <wine reference="48140">
+        <wine reference="48140" tasting_note_id="3">
             <name>Fontana Di Papa Colli Albani</name>
             <origin>
                 <country acronym="IT">Italy</country>
@@ -276,8 +268,8 @@
                 <style>Light &amp; Crisp</style>
             </technical_sheet>
             <package type="bottle" unit="mL">2000</package>
-            <image full="resources/full_image/fontana_di_papa_colli_albani_full"
-                   thumb="resources/thumb_image/fontana_di_papa_colli_albani_thumb"/>
+            <image full="resources/full_image/fontana_di_papa_colli_albani_full.jpeg"
+                   thumb="resources/thumb_image/fontana_di_papa_colli_albani_thumb.png"/>
         </wine>
         <wine reference="4762">
             <name>Spumante Bambino</name>
@@ -286,7 +278,7 @@
                 <region>Lazio</region>
             </origin>
             <producer>Constellation Brands Inc.</producer>
-            <price currency="euro">15.25</price>
+            <price currency="euro">4.85</price>
             <technical_sheet>
                 <alchool_content>7.00</alchool_content>
                 <sweetness>
@@ -297,14 +289,13 @@
                 <style>Light &amp; Fruity</style>
             </technical_sheet>
             <package type="bottle" unit="mL">1500</package>
-            <image full="resources/full_image/spumante_bambino_full"
-                   thumb="resources/thumb_image/spumante_bambino_thumb"/>
+            <image full="resources/full_image/spumante_bambino_full.jpeg"
+                   thumb="resources/thumb_image/spumante_bambino_thumb.png"/>
         </wine>
         <wine reference="251876">
-            <name>Wolf Blass Yellow Label Cabernet Sauvignon"</name>
+            <name>Wolf Blass Yellow Label Cabernet Sauvignon</name>
             <origin>
                 <country acronym="AU">Australia</country>
-                <region>Not specified</region>
             </origin>
             <producer>Mildara Blass Limited</producer>
             <price currency="euro">17.14</price>
@@ -318,14 +309,13 @@
                 <style>Full-bodied &amp; Smooth</style>
             </technical_sheet>
             <package type="bottle" unit="mL">750</package>
-            <image full="resources/full_image/wolf_blass_yellow_label_cabernet_sauvignon_full"
-                   thumb="resources/thumb_image/wolf_blass_yellow_label_cabernet_sauvignon_thumb"/>
+            <image full="resources/full_image/wolf_blass_yellow_label_cabernet_sauvignon_full.jpeg"
+                   thumb="resources/thumb_image/wolf_blass_yellow_label_cabernet_sauvignon_thumb.png"/>
         </wine>
         <wine reference="251876">
-            <name>Naked Grape Pinot Grigio"</name>
+            <name>Naked Grape Pinot Grigio</name>
             <origin>
                 <country acronym="CA">Canada</country>
-                <region>Not specified</region>
             </origin>
             <producer>Constellation Brands Inc.</producer>
             <price currency="euro">10.25</price>
@@ -339,11 +329,11 @@
                 <style>Light &amp; Crisp</style>
             </technical_sheet>
             <package type="bottle" unit="mL">750</package>
-            <image full="resources/full_image/naked_grape_pinot_grigio_full"
-                   thumb="resources/thumb_image/naked_grape_pinot_grigio_thumb"/>
+            <image full="resources/full_image/naked_grape_pinot_grigio_full.jpeg"
+                   thumb="resources/thumb_image/naked_grape_pinot_grigio_thumb.png"/>
         </wine>
-        <wine reference="452672">
-            <name>Luigi Bosca Malbec"</name>
+        <wine reference="452672" tasting_note_id="4">
+            <name>Luigi Bosca Malbec</name>
             <origin>
                 <country acronym="AR">Argentina</country>
                 <region>Mendoza</region>
@@ -360,8 +350,8 @@
                 <style>Full-bodied &amp; Smooth</style>
             </technical_sheet>
             <package type="bottle" unit="mL">750</package>
-            <image full="resources/full_image/luigi_bosca_malbec_full"
-                   thumb="resources/thumb_image/luigi_bosca_malbec_thumb"/>
+            <image full="resources/full_image/luigi_bosca_malbec_full.jpeg"
+                   thumb="resources/thumb_image/luigi_bosca_malbec_thumb.png"/>
         </wine>
         <wine reference="145417">
             <name>Pelee Island Lighthouse Riesling VQA</name>
@@ -381,11 +371,11 @@
                 <style>Light &amp; Crisp</style>
             </technical_sheet>
             <package type="bottle" unit="mL">750</package>
-            <image full="resources/full_image/pelee_island_lighthouse_riesling_vqa_full"
-                   thumb="resources/thumb_image/pelee_island_lighthouse_riesling_vqa_thumb"/>
+            <image full="resources/full_image/pelee_island_lighthouse_riesling_vqa_full.jpeg"
+                   thumb="resources/thumb_image/pelee_island_lighthouse_riesling_vqa_thumb.png"/>
         </wine>
         <wine reference="238048">
-            <name>Liebfraumilch Drathen Qualitatswein"</name>
+            <name>Liebfraumilch Drathen Qualitatswein</name>
             <origin>
                 <country acronym="DE">Germany</country>
                 <region>Rheinhessen</region>
@@ -402,11 +392,11 @@
                 <style>Off-dry &amp; Fruity</style>
             </technical_sheet>
             <package type="bottle" unit="mL">1500</package>
-            <image full="resources/full_image/liebfraumilch_drathen_qualitatswein_full"
-                   thumb="resources/thumb_image/liebfraumilch_drathen_qualitatswein_thumb"/>
+            <image full="resources/full_image/liebfraumilch_drathen_qualitatswein_full.jpeg"
+                   thumb="resources/thumb_image/liebfraumilch_drathen_qualitatswein_thumb.png"/>
         </wine>
         <wine reference="394759">
-            <name>Kung Fu Girl Riesling"</name>
+            <name>Kung Fu Girl Riesling</name>
             <origin>
                 <country acronym="USA">United States of America</country>
                 <region>Washington</region>
@@ -423,10 +413,10 @@
                 <style>Aromatic &amp; Flavourful</style>
             </technical_sheet>
             <package type="bottle" unit="mL">750</package>
-            <image full="resources/full_image/kung_fu_girl_riesling_full"
-                   thumb="resources/thumb_image/kung_fu_girl_riesling_thumb"/>
+            <image full="resources/full_image/kung_fu_girl_riesling_full.jpeg"
+                   thumb="resources/thumb_image/kung_fu_girl_riesling_thumb.png"/>
         </wine>
-        <wine reference="461533" tasting_note_id="2">
+        <wine reference="461533" tasting_note_id="5">
             <name>Gentleman's Collection Cabernet Sauvignon</name>
             <origin>
                 <country acronym="AU">Australia</country>
@@ -440,12 +430,12 @@
                     <sweetness_content unit="g/L">14</sweetness_content>
                     <sweetness_descriptor acronym="D" designation="Dry"/>
                 </sweetness>
-                <varietal>null</varietal>
+                <varietal>Cabernet</varietal>
                 <style>Full-bodied &amp; Smooth</style>
             </technical_sheet>
             <package type="bottle" unit="mL">750</package>
-            <image full="resources/full_image/gentleman's_collection_cabernet_sauvignon_full"
-                   thumb="resources/thumb_image/gentleman's_collection_cabernet_sauvignon_thumb"/>
+            <image full="resources/full_image/gentleman's_collection_cabernet_sauvignon_full.jpeg"
+                   thumb="resources/thumb_image/gentleman's_collection_cabernet_sauvignon_thumb.png"/>
         </wine>
 
 
@@ -456,9 +446,24 @@
             it is a fresh and seductive wine with fine and intense bouquet and all the joviality
             of young wines. In the mouth, it is a well balanced and tempting wine, brilliantly
             complemented by a soft and slightly fizzy finish.
-        </tn:tasting_note><tn:tasting_note id="2" lang="EN">
-        This vibrant ruby red wine offers pronounced aromas of cherry, strawberry and dried flowers.
-        The palate is rich and full with medium acid and tannins carrying flavours of jammy cherry, mocha, and pepper followed by a soft finish.
+        </tn:tasting_note>
+        <tn:tasting_note id="2">
+            Vibrant, deep purple in colour, leading to a nose of berry aromas with spicy notes. The full bodied palate
+            shows generous ripe fruit charactors with underlying earth tones and lingering sweet berry flavours
+        </tn:tasting_note>
+        <tn:tasting_note id="3" lang="EN">
+            Straw-like light yellow colour. On the nose, fruity and light. Dry, smooth and harmonious on the palate. It
+            goes extremely well with appetizers and fish.
+        </tn:tasting_note>
+        <tn:tasting_note id="4">
+            Mendoza is one of the most important wine regions in Argentina and the place to be for New World Malbec.
+            This example offers ripe red fruit tones with savoury, earthy and spice notes. Silky and juicy. Pair with
+            steak.
+        </tn:tasting_note>
+        <tn:tasting_note id="5">
+            This vibrant ruby red wine offers pronounced aromas of cherry, strawberry and dried flowers.
+            The palate is rich and full with medium acid and tannins carrying flavours of jammy cherry, mocha, and
+            pepper followed by a soft finish.
         </tn:tasting_note>
     </tasting_notes>
 </o_rolhas>
