@@ -300,6 +300,153 @@
             <image full="resources/full_image/spumante_bambino_full"
                    thumb="resources/thumb_image/spumante_bambino_thumb"/>
         </wine>
+        <wine reference="251876">
+            <name>Wolf Blass Yellow Label Cabernet Sauvignon"</name>
+            <origin>
+                <country acronym="AU">Australia</country>
+                <region>Not specified</region>
+            </origin>
+            <producer>Mildara Blass Limited</producer>
+            <price currency="euro">17.14</price>
+            <technical_sheet>
+                <alchool_content>13.50</alchool_content>
+                <sweetness>
+                    <sweetness_content unit="g/L">7</sweetness_content>
+                    <sweetness_descriptor acronym="D" designation="Dry"/>
+                </sweetness>
+                <varietal>Cabernet Sauvignon</varietal>
+                <style>Full-bodied &amp; Smooth</style>
+            </technical_sheet>
+            <package type="bottle" unit="mL">750</package>
+            <image full="resources/full_image/wolf_blass_yellow_label_cabernet_sauvignon_full"
+                   thumb="resources/thumb_image/wolf_blass_yellow_label_cabernet_sauvignon_thumb"/>
+        </wine>
+        <wine reference="251876">
+            <name>Naked Grape Pinot Grigio"</name>
+            <origin>
+                <country acronym="CA">Canada</country>
+                <region>Not specified</region>
+            </origin>
+            <producer>Constellation Brands Inc.</producer>
+            <price currency="euro">10.25</price>
+            <technical_sheet>
+                <alchool_content>12.00</alchool_content>
+                <sweetness>
+                    <sweetness_content unit="g/L">7</sweetness_content>
+                    <sweetness_descriptor acronym="D" designation="Dry"/>
+                </sweetness>
+                <varietal>Pinot Grigio</varietal>
+                <style>Light &amp; Crisp</style>
+            </technical_sheet>
+            <package type="bottle" unit="mL">750</package>
+            <image full="resources/full_image/naked_grape_pinot_grigio_full"
+                   thumb="resources/thumb_image/naked_grape_pinot_grigio_thumb"/>
+        </wine>
+        <wine reference="452672">
+            <name>Luigi Bosca Malbec"</name>
+            <origin>
+                <country acronym="AR">Argentina</country>
+                <region>Mendoza</region>
+            </origin>
+            <producer>Familia Arizu</producer>
+            <price currency="euro">16.95</price>
+            <technical_sheet>
+                <alchool_content>14.00</alchool_content>
+                <sweetness>
+                    <sweetness_content unit="g/L">2</sweetness_content>
+                    <sweetness_descriptor acronym="XD" designation="Extra Dry"/>
+                </sweetness>
+                <varietal>Malbec</varietal>
+                <style>Full-bodied &amp; Smooth</style>
+            </technical_sheet>
+            <package type="bottle" unit="mL">750</package>
+            <image full="resources/full_image/luigi_bosca_malbec_full"
+                   thumb="resources/thumb_image/luigi_bosca_malbec_thumb"/>
+        </wine>
+        <wine reference="145417">
+            <name>Pelee Island Lighthouse Riesling VQA</name>
+            <origin>
+                <country acronym="AR">Canada</country>
+                <region>Ontario</region>
+            </origin>
+            <producer>Pelee Island Vineyard Inc.</producer>
+            <price currency="euro">12.45</price>
+            <technical_sheet>
+                <alchool_content>12.50</alchool_content>
+                <sweetness>
+                    <sweetness_content unit="g/L">7</sweetness_content>
+                    <sweetness_descriptor acronym="XD" designation="Extra Dry"/>
+                </sweetness>
+                <varietal>Riesling</varietal>
+                <style>Light &amp; Crisp</style>
+            </technical_sheet>
+            <package type="bottle" unit="mL">750</package>
+            <image full="resources/full_image/pelee_island_lighthouse_riesling_vqa_full"
+                   thumb="resources/thumb_image/pelee_island_lighthouse_riesling_vqa_thumb"/>
+        </wine>
+        <wine reference="238048">
+            <name>Liebfraumilch Drathen Qualitatswein"</name>
+            <origin>
+                <country acronym="DE">Germany</country>
+                <region>Rheinhessen</region>
+            </origin>
+            <producer>Ewald Theod. Drathen Kg</producer>
+            <price currency="euro">14.95</price>
+            <technical_sheet>
+                <alchool_content>8.50</alchool_content>
+                <sweetness>
+                    <sweetness_content unit="g/L">41</sweetness_content>
+                    <sweetness_descriptor acronym="MS" designation="Medium Sweet"/>
+                </sweetness>
+                <varietal>Blend</varietal>
+                <style>Off-dry &amp; Fruity</style>
+            </technical_sheet>
+            <package type="bottle" unit="mL">1500</package>
+            <image full="resources/full_image/liebfraumilch_drathen_qualitatswein_full"
+                   thumb="resources/thumb_image/liebfraumilch_drathen_qualitatswein_thumb"/>
+        </wine>
+        <wine reference="394759">
+            <name>Kung Fu Girl Riesling"</name>
+            <origin>
+                <country acronym="USA">United States of America</country>
+                <region>Washington</region>
+            </origin>
+            <producer>Constellation Brands Inc."</producer>
+            <price currency="euro">18.95</price>
+            <technical_sheet>
+                <alchool_content>12.00</alchool_content>
+                <sweetness>
+                    <sweetness_content unit="g/L">11</sweetness_content>
+                    <sweetness_descriptor acronym="D" designation="Dry"/>
+                </sweetness>
+                <varietal>Riesling</varietal>
+                <style>Aromatic &amp; Flavourful</style>
+            </technical_sheet>
+            <package type="bottle" unit="mL">750</package>
+            <image full="resources/full_image/kung_fu_girl_riesling_full"
+                   thumb="resources/thumb_image/kung_fu_girl_riesling_thumb"/>
+        </wine>
+        <wine reference="461533" tasting_note_id="2">
+            <name>Gentleman's Collection Cabernet Sauvignon</name>
+            <origin>
+                <country acronym="AU">Australia</country>
+                <region>South Australia</region>
+            </origin>
+            <producer>Southcorp Wines</producer>
+            <price currency="euro">18.20</price>
+            <technical_sheet>
+                <alchool_content>14.00</alchool_content>
+                <sweetness>
+                    <sweetness_content unit="g/L">14</sweetness_content>
+                    <sweetness_descriptor acronym="D" designation="Dry"/>
+                </sweetness>
+                <varietal>null</varietal>
+                <style>Full-bodied &amp; Smooth</style>
+            </technical_sheet>
+            <package type="bottle" unit="mL">750</package>
+            <image full="resources/full_image/gentleman's_collection_cabernet_sauvignon_full"
+                   thumb="resources/thumb_image/gentleman's_collection_cabernet_sauvignon_thumb"/>
+        </wine>
 
 
     </wines>
@@ -309,6 +456,9 @@
             it is a fresh and seductive wine with fine and intense bouquet and all the joviality
             of young wines. In the mouth, it is a well balanced and tempting wine, brilliantly
             complemented by a soft and slightly fizzy finish.
+        </tn:tasting_note><tn:tasting_note id="2" lang="EN">
+        This vibrant ruby red wine offers pronounced aromas of cherry, strawberry and dried flowers.
+        The palate is rich and full with medium acid and tannins carrying flavours of jammy cherry, mocha, and pepper followed by a soft finish.
         </tn:tasting_note>
     </tasting_notes>
 </o_rolhas>
