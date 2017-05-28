@@ -6,7 +6,7 @@
                 doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
                 doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"/>
     <!-- GLOBAL PARAMS & VARS-->
-    <xsl:param name="priceLimitParam" select="'15'"/>
+    <xsl:param name="priceLimitParam"/>
     <!-- MAIN TEMPLATE -->
     <xsl:template match="r:o_rolhas">
         <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
