@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Relatorio.xsl"?>
+<relatório xmlns="http://www.dei.isep.ipp.pt/lprog"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.dei.isep.ipp.pt/lprog xsd/Relatorio.xsd"
+           id="LPROG-2DD">
+    <páginaRosto>
+        <tema>"oRolhas" - Gestão da garrafeira</tema>
+        <disciplina>
+            <designação>Linguagens e Programação</designação>
+            <anoCurricular>2</anoCurricular>
+            <sigla>LPROG</sigla>
+        </disciplina>
+        <autor>
+            <nome>Daniel Goncalves</nome>
+            <número>1151452</número>
+            <mail>1151452@isep.ipp.pt</mail>
+        </autor>
+        <autor>
+            <nome>Eric Amaral</nome>
+            <número>1141570</número>
+            <mail>1141570@isep.ipp.pt</mail>
+        </autor>
+        <turma>2DD</turma>
+        <professor sigla="AMD" tipoAula="T"/>
+        <professor sigla="PSM" tipoAula="TP"/>
+        <professor sigla="JSM" tipoAula="PL"/>
+        <logotipoDEI>http://dei.isep.ipp.pt/~i090704/PPISEP/images/dei.png</logotipoDEI>
+        <data>2017-05-25</data>
+    </páginaRosto>
+    <corpo id="desenvolvimento">
+        <introdução id="SEC001" tituloSecção="Introdução">
+            <parágrafo>TODO ver TSeccao</parágrafo>
+        </introdução>
+        <outrasSecções>
+            <análise id="SEC002" tituloSecção="Análise">
+                <parágrafo>TODO ver TSeccao</parágrafo>
+            </análise>
+            <linguagem id="SEC003" tituloSecção="Linguagem">
+                <parágrafo>
+                    <negrito>TODO</negrito>
+                    ver <itálico>TSeccao</itálico>.
+                    <sublinhado>Consulatado em:</sublinhado>
+                    <citação>RefW_01</citação>
+                </parágrafo>
+                <subsecção id="SUBSEC001">
+                    Coisos
+                </subsecção>
+                <listaItems>
+                    <item>HTML</item>
+                    <item>CSS</item>
+                </listaItems>
+                <parágrafo>
+                    <negrito>TODO</negrito>
+                    ver <itálico>TSeccao</itálico>.
+                    <sublinhado>Consulatado em:</sublinhado>
+                    <citação>RefW_02</citação>
+                </parágrafo>
+                <listaItems>
+                    <item label="okapa">arroz</item>
+                    <item>cebolas</item>
+                </listaItems>
+                <figura src="resources/dei.png" descrição="dei"/>
+                <codigo>
+                    <bloco>
+                        if (arroz) {
+                        printf("ok\n");
+                        }
+                    </bloco>
+                    <bloco>exit(0);</bloco>
+                </codigo>
+            </linguagem>
+            <transformações id="SEC004" tituloSecção="Transformações">
+                <parágrafo>TODO ver TSeccao</parágrafo>
+            </transformações>
+        </outrasSecções>
+        <conclusão id="SEC005" tituloSecção="Conclusão">
+            <parágrafo>TODO ver TSeccao</parágrafo>
+        </conclusão>
+        <referências id="SEC006" tituloSecção="Referências Bibliográficas">
+            <refWeb idRef="RefW_01">
+                <URL>http://www.ivv.min-agricultura.pt/np4/55/np4/6830.html</URL>
+                <descrição>Instituto da vinha e do vinho</descrição>
+                <consultadoEm>2017-05-16</consultadoEm>
+            </refWeb>
+            <refWeb idRef="RefW_02">
+                <URL>https://www.garrafeiranacional.com/</URL>
+                <descrição>Garrafeira Nacional</descrição>
+                <consultadoEm>2017-05-17</consultadoEm>
+            </refWeb>
+        </referências>
+    </corpo>
+    <anexos id="SEC007" tituloSecção="Anexos">
+        <parágrafo>TODO ver TSeccao</parágrafo>
+    </anexos>
+</relatório>
