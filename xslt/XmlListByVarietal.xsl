@@ -16,6 +16,9 @@
 
     <xsl:template match="r:wines">
         <xsl:copy>
+            <xsl:attribute name="count">
+                <xsl:value-of select="count(r:wine)"/>
+            </xsl:attribute>
             <xsl:apply-templates select="//r:varietal[generate-id(.) = generate-id(key('varietalGroup', self::*))]"/>
         </xsl:copy>
     </xsl:template>

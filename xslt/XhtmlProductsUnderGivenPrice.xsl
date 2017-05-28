@@ -6,7 +6,7 @@
                 doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
                 doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"/>
     <!-- GLOBAL PARAMS & VARS-->
-    <xsl:param name="priceLimitParam"/>
+    <xsl:param name="priceLimitParam" select="10"/>
     <!-- MAIN TEMPLATE -->
     <xsl:template match="r:o_rolhas">
         <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -67,34 +67,6 @@
                             </tbody>
                         </table>
                     </div>
-                    <!-- TASTING NOTES -->
-                    <div class="row align-center">
-                        <h3 class="section-head" id="h-tasting-notes">
-                            <a href="#h-tasting-notes" style="text-decoration: none;">Tasting Notes</a>
-                        </h3>
-                        <xsl:if test="r:tasting_notes">
-                            <table style="max-width: 60%; border-top: 1px solid rgba(0, 0, 0, .05)">
-                                <tbody>
-                                    <xsl:for-each select="r:tasting_notes/tn:tasting_note">
-                                        <xsl:variable name="idVar" select="./@id"/>
-                                        <tr id="{concat('tasting-note-',$idVar)}" class="align-middle">
-                                            <td>
-                                                <p>
-                                                    <kbd>
-                                                        <xsl:value-of
-                                                                select="preceding::r:wine[@tasting_note_id=$idVar]//r:name"/>
-                                                    </kbd>
-                                                </p>
-                                                <p>
-                                                    <xsl:value-of select="."/>
-                                                </p>
-                                            </td>
-                                        </tr>
-                                    </xsl:for-each>
-                                </tbody>
-                            </table>
-                        </xsl:if>
-                    </div>
                 </div>
                 <!-- FOOTER -->
                 <b class=""/>
@@ -121,13 +93,6 @@
             </td>
             <td class="text-center strong large" style="vertical-align: middle;">
                 <xsl:value-of select="r:name"/>
-                <xsl:if test="@tasting_note_id">
-                    <sup>
-                        <a href="#{concat('tasting-note-', @tasting_note_id)}">
-                            <xsl:value-of select="@tasting_note_id"/>
-                        </a>
-                    </sup>
-                </xsl:if>
             </td>
             <td class="text-center" style="vertical-align: middle;">
                 <xsl:choose>
