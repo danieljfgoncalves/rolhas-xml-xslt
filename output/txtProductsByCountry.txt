@@ -7,7 +7,7 @@ Daniel Gonçalves [ 1151452 ]
 Eric Amaral [ 1141570 ]
 *---------------------------*
 
-WINES
+WINES [ Available: 1 ]
 
 COUNTRY: Argentina
 

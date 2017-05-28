@@ -6,9 +6,24 @@
                 doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
                 doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"/>
     <!-- GLOBAL PARAMS & VARS-->
-    <xsl:param name="priceLimitParam" select="10"/>
+    <xsl:param name="countryParam" select="'undefined'"/>
+    <xsl:param name="acronymParam" select="'undefined'"/>
     <!-- MAIN TEMPLATE -->
     <xsl:template match="r:o_rolhas">
+        <xsl:variable name="countryVar">
+            <xsl:choose>
+                <xsl:when test="$countryParam='undefined' and not($acronymParam='undefined')">
+                    <xsl:value-of select="r:wines/r:wine/r:origin/r:country[@acronym=$acronymParam]"/>
+                </xsl:when>
+                <xsl:when test="not($countryParam='undefined')">
+                    <xsl:value-of select="$countryParam"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="'Portugal'"/> <!-- DEFAULT VALUE -->
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+
         <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
             <head>
                 <title>O'Rolhas Winery</title>
@@ -25,13 +40,12 @@
                 <div id="hero">
                     <img class="w10" src="{concat('../', @logo)}" alt="{'logo'}"/>
                     <h1 class="w-auto">O'Rolhas Winery</h1>
-                    <p id="hero-lead">
-                        the
-                        <kbd class="strong" style="margin-right: 5px;">
-                            <b>best</b>
-                        </kbd>
-                        wine selection.
-                    </p>
+                    <h2 id="hero-lead" class="w-auto">
+                        <xsl:text>Wines from: </xsl:text>
+                        <mark>
+                            <xsl:value-of select="$countryVar"/>
+                        </mark>
+                    </h2>
                 </div>
                 <div id="kube-features">
                     <!-- TABLE -->
@@ -39,28 +53,25 @@
                         <table class="bordered">
                             <thead style="background-color: rgba(140,4,74, 0.85);color: #FFF;">
                                 <tr>
-                                    <th class="text-center" rowspan="2">Label</th>
-                                    <th class="text-center" rowspan="2">Name</th>
-                                    <th class="text-center" rowspan="2">Price</th>
-                                    <th class="text-center" rowspan="2">Producer</th>
-                                    <th class="text-center" colspan="2">Origin</th>
-                                    <th class="text-center" rowspan="2">Varietal</th>
-                                    <th class="text-center" rowspan="2">Style</th>
-                                    <th class="text-center" rowspan="2">More Info</th>
-                                </tr>
-                                <tr>
-                                    <th class="text-center">Country</th>
+                                    <th class="text-center">Label</th>
+                                    <th class="text-center">Name</th>
+                                    <th class="text-center">Price</th>
+                                    <th class="text-center">Producer</th>
                                     <th class="text-center">Region</th>
+                                    <th class="text-center">Varietal</th>
+                                    <th class="text-center">Style</th>
+                                    <th class="text-center">More Info</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <!-- LIST WINES -->
-                                <xsl:apply-templates select="r:wines/r:wine[r:price&lt;$priceLimitParam]"/>
+                                <xsl:apply-templates select="r:wines/r:wine[r:origin/r:country=$countryVar]"/>
                                 <tr>
-                                    <td colspan="9">
+                                    <td colspan="8">
                                         <b class="upper">Available Wines:</b>
                                         <kbd style="margin-left: 5px;">
-                                            <xsl:value-of select="count(r:wines/r:wine[r:price&lt;$priceLimitParam])"/>
+                                            <xsl:value-of
+                                                    select="count(r:wines/r:wine[r:origin/r:country=$countryVar])"/>
                                         </kbd>
                                     </td>
                                 </tr>
@@ -119,7 +130,16 @@
             <td class="text-center" style="vertical-align: middle;">
                 <xsl:value-of select="r:producer"/>
             </td>
-            <xsl:apply-templates select="r:origin"/>
+            <td class="text-center" style="vertical-align: middle;">
+                <xsl:choose>
+                    <xsl:when test="r:origin/r:region">
+                        <xsl:value-of select="r:origin/r:region"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:text>Not Specified</xsl:text>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </td>
             <td class="text-center" style="vertical-align: middle;">
                 <b>
                     <xsl:value-of select="r:technical_sheet/r:varietal"/>
@@ -156,23 +176,6 @@
                 </kbd>
             </td>
         </tr>
-    </xsl:template>
-    <!-- ORIGIN -->
-    <xsl:template match="r:origin">
-        <!-- LOCAL VARIABLE -->
-        <xsl:variable name="acronymVar" select="r:country/@acronym"/>
-
-        <td class="text-center" style="vertical-align: middle;">
-            <xsl:value-of select="r:country"/>
-            <span class="highlight float-right">[<xsl:value-of select="$acronymVar"/>]
-            </span>
-        </td>
-        <td class="text-center" style="vertical-align: middle;">
-            <xsl:if test="r:region">
-                <xsl:value-of select="r:region"/>
-            </xsl:if>
-            <xsl:if test="not(r:region)">Not Specified</xsl:if>
-        </td>
     </xsl:template>
     <!-- CURRENCY -->
     <xsl:template match="r:price/@currency">

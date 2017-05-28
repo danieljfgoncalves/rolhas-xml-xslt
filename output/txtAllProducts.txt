@@ -7,7 +7,7 @@ Daniel Gonçalves [ 1151452 ]
 Eric Amaral [ 1141570 ]
 *---------------------------*
 
-WINES
+WINES [ Available: 21 ]
 
 +----------------------------------------------------------------------------------------------------------------------+
 
@@ -309,7 +309,7 @@ image :  [full: resources/full_image/luigi_bosca_malbec_full.jpeg] [thumb: resou
 
 [reference: 145417] 
 name : Pelee Island Lighthouse Riesling VQA 
-country : Canada [acronym: AR] 
+country : Canada [acronym: CA] 
 region : Ontario 
 producer : Pelee Island Vineyard Inc. 
 price : 12.45 [currency: euro] 
