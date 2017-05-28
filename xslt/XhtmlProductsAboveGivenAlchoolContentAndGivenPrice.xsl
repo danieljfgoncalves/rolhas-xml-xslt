@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                xmlns:r="xml.lprog.isep.pt/rolhas"
-                xmlns:tn="xml.lprog.isep.pt/tastingNotes">
+                xmlns:r="xml.lprog.isep.pt/rolhas">
     <xsl:output method="xml" indent="yes"
                 doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
                 doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"/>
     <!-- GLOBAL PARAMS & VARS-->
-    <xsl:param name="priceLimitParam"/>
-    <xsl:param name="alchoolContentBelowLimitParam"/>
+    <xsl:param name="priceLimitParam" select="10"/>
+    <xsl:param name="alchoolContentBelowLimitParam" select="10"/>
     <!-- MAIN TEMPLATE -->
     <xsl:template match="r:o_rolhas">
         <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -56,45 +55,19 @@
                             </thead>
                             <tbody>
                                 <!-- LIST WINES -->
-                                <xsl:apply-templates select="r:wines/r:wine[r:price&lt;$priceLimitParam][r:technical_sheet/r:alchool_content&gt;$alchoolContentBelowLimitParam]"/>
+                                <xsl:apply-templates
+                                        select="r:wines/r:wine[r:price&lt;$priceLimitParam][r:technical_sheet/r:alchool_content&gt;$alchoolContentBelowLimitParam]"/>
                                 <tr>
                                     <td colspan="9">
                                         <b class="upper">Available Wines:</b>
                                         <kbd style="margin-left: 5px;">
-                                            <xsl:value-of select="count(r:wines/r:wine[r:price&lt;$priceLimitParam][r:technical_sheet/r:alchool_content&gt;$alchoolContentBelowLimitParam])"/>
+                                            <xsl:value-of
+                                                    select="count(r:wines/r:wine[r:price&lt;$priceLimitParam][r:technical_sheet/r:alchool_content&gt;$alchoolContentBelowLimitParam])"/>
                                         </kbd>
                                     </td>
                                 </tr>
                             </tbody>
                         </table>
-                    </div>
-                    <!-- TASTING NOTES -->
-                    <div class="row align-center">
-                        <h3 class="section-head" id="h-tasting-notes">
-                            <a href="#h-tasting-notes" style="text-decoration: none;">Tasting Notes</a>
-                        </h3>
-                        <xsl:if test="r:tasting_notes">
-                            <table style="max-width: 60%; border-top: 1px solid rgba(0, 0, 0, .05)">
-                                <tbody>
-                                    <xsl:for-each select="r:tasting_notes/tn:tasting_note">
-                                        <xsl:variable name="idVar" select="./@id"/>
-                                        <tr id="{concat('tasting-note-',$idVar)}" class="align-middle">
-                                            <td>
-                                                <p>
-                                                    <kbd>
-                                                        <xsl:value-of
-                                                                select="preceding::r:wine[@tasting_note_id=$idVar]//r:name"/>
-                                                    </kbd>
-                                                </p>
-                                                <p>
-                                                    <xsl:value-of select="."/>
-                                                </p>
-                                            </td>
-                                        </tr>
-                                    </xsl:for-each>
-                                </tbody>
-                            </table>
-                        </xsl:if>
                     </div>
                 </div>
                 <!-- FOOTER -->
@@ -122,13 +95,6 @@
             </td>
             <td class="text-center strong large" style="vertical-align: middle;">
                 <xsl:value-of select="r:name"/>
-                <xsl:if test="@tasting_note_id">
-                    <sup>
-                        <a href="#{concat('tasting-note-', @tasting_note_id)}">
-                            <xsl:value-of select="@tasting_note_id"/>
-                        </a>
-                    </sup>
-                </xsl:if>
             </td>
             <td class="text-center" style="vertical-align: middle;">
                 <xsl:choose>
